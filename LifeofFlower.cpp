@@ -46,30 +46,3 @@ int main() {
 	}
 	return 0;
 }
-		// int n;
-		// cin>>n;
-		// int a[n],ans=1,cnt=0;
-		// for(int i=0;i<n;i++){
-		// 	cin>>a[i];
-		// }
-		// if(a[0]==1){
-		// 	ans+=1;
-		// }
-		// for(int i=1;i<n;i++){
-		// 	if(a[i]==1 && a[i-1]==1){
-		// 		ans+=5;
-		// 		cnt=0;
-		// 	}
-		// 	else if(a[i]==1 && a[i-1]!=1){
-		// 		ans+=1;
-		// 		cnt=0;
-		// 	}
-		// 	else if(a[i]==0){
-		// 		cnt++;
-		// 	}
-		// 	if(cnt==2){
-		// 		ans = -1;
-		// 		break;
-		// 	}
-		// }
-		// cout<<ans<<"\n";
